@@ -8,9 +8,9 @@ namespace Tyuiu.AkhmetovRR.Sprint3.Task0.V16.Lib
             double res = 1;
             for (int i = startValue; i <= stopValue; i++)
             {
-                res *= Math.Pow((value / i), 3);
+                res *= Math.Pow((double)value / i, 3);
             }
-            return (res);
+            return Math.Round(res,3);
         }
     }
 }
