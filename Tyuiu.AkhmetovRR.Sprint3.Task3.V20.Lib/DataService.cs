@@ -5,25 +5,15 @@ namespace Tyuiu.AkhmetovRR.Sprint3.Task3.V20.Lib
     {
         public int GetCharCount(string value, char item)
         {
-            throw new NotImplementedException();
-        }
-
-        public double GetProductSeries(string text)
-        {
             int count = 0;
-            foreach (var item in text)
+            foreach (var i in value)
             {
-                if (item == 'f')
+                if (i == item)
                 {
                     count++;
                 }
             }
             return count;
-        }
-
-        public double GetProductSeries(string v, object text)
-        {
-            throw new NotImplementedException();
         }
     }
 }

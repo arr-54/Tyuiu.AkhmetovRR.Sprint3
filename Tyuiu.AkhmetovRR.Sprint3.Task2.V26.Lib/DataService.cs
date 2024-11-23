@@ -3,12 +3,7 @@ namespace Tyuiu.AkhmetovRR.Sprint3.Task2.V26.Lib
 {
     public class DataService : ISprint3Task2V26
     {
-        public double GetMultiplySeries(double value, int startValue, int stopValue)
-        {
-            throw new NotImplementedException();
-        }
-
-        public double GetProductSeries(double x, int i, int stopValue)
+        public double GetMultiplySeries(double x, int i, int stopValue)
         {
             double res = 1;
             do

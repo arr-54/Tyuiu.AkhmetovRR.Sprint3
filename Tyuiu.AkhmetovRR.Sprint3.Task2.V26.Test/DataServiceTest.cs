@@ -16,7 +16,7 @@ namespace Tyuiu.AkhmetovRR.Sprint3.Task2.V26.Test
             int startValue = 1;
             int stopValue = 2;
 
-            double res = ds.GetProductSeries(value, startValue, stopValue);
+            double res = ds.GetMultiplySeries(value, startValue, stopValue);
 
             double wait = ((Math.Pow(value, 3) * 1) + 2) * ((Math.Pow(value, 3) * 2 + 2));
 

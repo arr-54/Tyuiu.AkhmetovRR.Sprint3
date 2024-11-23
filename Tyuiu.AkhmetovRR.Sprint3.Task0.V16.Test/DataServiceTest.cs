@@ -8,15 +8,15 @@ namespace Tyuiu.AkhmetovRR.Sprint3.Task0.V16.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidGetProductSeries()
+        public void GetMultiplySeries()
         {
             DataService ds = new DataService();
 
-            double x = 5;
+            int x = 5;
             int startValue = 2;
             int stopValue = 2;
 
-            double res = ds.GetProductSeries(startValue, stopValue, x);
+            double res = ds.GetMultiplySeries(startValue, stopValue, x);
 
             double wait = Math.Pow(x / 2, 3);
 
@@ -28,11 +28,11 @@ namespace Tyuiu.AkhmetovRR.Sprint3.Task0.V16.Test
         {
             DataService ds = new DataService();
 
-            double x = 5;
+            int x = 5;
             int startValue = 1;
             int stopValue = 3;
 
-            double res = ds.GetProductSeries(startValue, stopValue, x);
+            double res = ds.GetMultiplySeries(startValue, stopValue, x);
 
             double wait = Math.Pow(x / 1, 3) * Math.Pow(x / 2, 3) * Math.Pow(x / 3, 3);
 

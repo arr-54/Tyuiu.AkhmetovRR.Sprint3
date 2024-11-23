@@ -14,7 +14,7 @@ namespace Tyuiu.AkhmetovRR.Sprint3.Task3.V20
         {
             DataService ds = new DataService();
             string text = "gfft ntf f opf";
-            double result = ds.GetProductSeries(text);
+            double result = ds.GetCharCount(text, 'f');
             Console.WriteLine(result);
             Console.ReadKey();
         }

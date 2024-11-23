@@ -8,13 +8,13 @@ namespace Tyuiu.AkhmetovRR.Sprint3.Task0.V16
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            double x = 5;
+            int x = 5;
             int startValue = 1;
             int stopValue = 6;
             Console.WriteLine(" Переменная x = " + x);
             Console.WriteLine(" Старт шага = " + startValue);
             Console.WriteLine(" Конец шага " + stopValue);
-            Console.WriteLine(" Произведение ряда: " + ds.GetProductSeries(startValue, stopValue, x));
+            Console.WriteLine(" Произведение ряда: " + ds.GetMultiplySeries(startValue, stopValue, x));
             Console.ReadKey();
         }
     }

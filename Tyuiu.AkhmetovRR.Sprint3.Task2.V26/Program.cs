@@ -21,7 +21,7 @@ namespace Tyuiu.AkhmetovRR.Sprint3.Task2.V26
             Console.WriteLine("Старт шага = " + startValue);
             Console.WriteLine("Конец шага = " + stopValue);
 
-            Console.WriteLine("Произведение ряда = " + ds.GetProductSeries(value, startValue, stopValue));
+            Console.WriteLine("Произведение ряда = " + ds.GetMultiplySeries(value, startValue, stopValue));
             Console.ReadKey();
         }
     }
