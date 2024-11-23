@@ -16,7 +16,7 @@ namespace Tyuiu.AkhmetovRR.Sprint3.Task0.V16.Test
             int startValue = 2;
             int stopValue = 2;
 
-            double res = ds.GetMultiplySeries(startValue, stopValue, x);
+            double res = ds.GetMultiplySeries(x, startValue, stopValue);
 
             double wait = Math.Pow(x / 2, 3);
 
@@ -32,7 +32,7 @@ namespace Tyuiu.AkhmetovRR.Sprint3.Task0.V16.Test
             int startValue = 1;
             int stopValue = 3;
 
-            double res = ds.GetMultiplySeries(startValue, stopValue, x);
+            double res = ds.GetMultiplySeries(x, startValue, stopValue);
 
             double wait = Math.Pow(x / 1, 3) * Math.Pow(x / 2, 3) * Math.Pow(x / 3, 3);
 

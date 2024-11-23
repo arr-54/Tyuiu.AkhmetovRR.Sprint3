@@ -11,7 +11,7 @@ namespace Tyuiu.AkhmetovRR.Sprint3.Task2.V26.Lib
                 res *= (Math.Pow(x, 3) * i) + 2;
                 i++;
             } while (i <= stopValue);
-            return (res);
+            return Math.Round((res),3);
         }
     }
 }

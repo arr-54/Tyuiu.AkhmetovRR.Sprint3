@@ -14,7 +14,7 @@ namespace Tyuiu.AkhmetovRR.Sprint3.Task0.V16
             Console.WriteLine(" Переменная x = " + x);
             Console.WriteLine(" Старт шага = " + startValue);
             Console.WriteLine(" Конец шага " + stopValue);
-            Console.WriteLine(" Произведение ряда: " + ds.GetMultiplySeries(startValue, stopValue, x));
+            Console.WriteLine(" Произведение ряда: " + ds.GetMultiplySeries(x, startValue, stopValue));
             Console.ReadKey();
         }
     }
